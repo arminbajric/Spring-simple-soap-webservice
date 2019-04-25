@@ -67,7 +67,7 @@
                       ${project.basedir}/src/main/resources
                   </schemaDirectory>
                     <outputDirectory>
-                        ${project.basedir}/src/main/java
+                        ${project.basedir}/target/generated-sources/jaxb
                     </outputDirectory>
                     <clearOutputDir>false</clearOutputDir>
                 </configuration>
