@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GetUserInfoRequest  xmlns="http://localhost:3000" xsi:schemaLocation="http://localhost:3000 UserInfo.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<id>1</id><!--numbers-->
+</GetUserInfoRequest>

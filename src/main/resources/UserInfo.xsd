@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://localhost:3000" xmlns:tns="http://localhost:3000" elementFormDefault="qualified">
+<element name="GetUserInfoRequest">
+    <complexType>
+        <sequence>
+            <element name="id" type="integer"></element>
+        </sequence>
+    </complexType>
+</element>
+    <element name="GetUserInfoResponse">
+        <complexType>
+            <sequence>
+                <element name="UserInfo" type="tns:UserInfo"/>
+            </sequence>
+        </complexType>
+    </element>
+    <complexType name="UserInfo">
+        <sequence>
+            <element name="id" type="integer"></element>
+            <element name="name" type="string"></element>
+            <element name="email" type="string"></element>
+        </sequence>
+    </complexType>
+</schema>

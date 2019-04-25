@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GetUserInfoResponse xmlns="http://localhost:3000" xsi:schemaLocation="http://localhost:3000 UserInfo.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <UserInfo>
+        <id>1</id>
+        <name>John</name>
+        <email>john@doe.com</email>
+    </UserInfo>
+</GetUserInfoResponse>
